@@ -1,0 +1,180 @@
+html {
+    cursor: url('icons/mouse.png'), auto;
+    width="16"
+    height:"16"
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+a {
+	color: #e4e3e3;
+	text-decoration: none;
+	cursor: url('icons/mouse.png'), auto;
+}
+
+body, input {
+	color: #e4e3e3;
+	background-color: #000
+	cursor: url('icons/mouse.png'), auto;
+	
+}
+
+@font-face {
+	font-family: courier_regular;
+	src: url("../others/Consolas.ttf");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: consolas, sans-serif;
+ cursor: url('icons/mouse.png'), auto;
+}
+
+body {
+	overflow-x: hidden;
+	cursor: url('icons/mouse.png'), auto;
+}
+
+input {
+	outline: 0;
+	border: none;
+	cursor: url('icons/mouse.png'), auto;
+}
+
+td {
+	padding: 3px;
+}
+
+hr {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-style: dashed
+}
+
+pre {
+    font-size: 1.15em;
+}
+
+.box, body, input {
+	background-color: #000;
+	cursor: url('icons/mouse.png'), auto;
+}
+
+.box {
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	cursor: url('icons/mouse.png'), auto;
+}
+
+.top-right {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	cursor: url('icons/mouse.png'), auto;
+}
+
+
+.container {
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	cursor: url('icons/mouse.png'), auto;
+}
+
+#brand {
+    margin-left: 0.65pc;
+}
+
+.marquee-container {
+	position: absolute;
+	width: 100%;
+	bottom: 10%;
+	text-align: center;
+	cursor: url('icons/mouse.png'), auto;
+}
+
+#marquee {
+	width: 420px;
+	overflow: hidden;
+	display: inline-block;
+	margin-bottom: -4.5px;
+	font-size: 15px;
+	cursor: url('icons/mouse.png'), auto;
+}
+
+.emoticon {
+	vertical-align: middle;
+}
+
+.main {
+	overflow: hidden;
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -3;
+	cursor: url('icons/mouse.png'), auto;
+}
+
+#pattern {
+	background: transparent url("icons/mouse.png") repeat 0 0;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	opacity: 1;;
+}
+
+#pattern, #background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#background {
+	z-index: -2;
+	position: fixed;
+	min-width: 135%;
+	top: 50%;
+	left: 50%;
+	min-height: 110%;
+	width: auto;
+	height: auto;
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+	overflow: hidden;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+
+.trollface-light {
+	-webkit-filter: invert(100%);
+	-moz-filter: invert(100%);
+	-ms-filter: invert(100%);
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
